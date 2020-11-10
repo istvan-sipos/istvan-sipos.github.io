@@ -2,24 +2,38 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <link rel="stylesheet" href="./css/style.css" />
+        <title>Stephen Sipos's personal page</title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
             integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
             crossorigin="anonymous" />
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+            integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+            crossorigin="anonymous">
+
+        <!-- jQuery and JS bundle w/ Popper.js -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./css/style.css" />
     </head>
     <body>
-        <div id="content">
+        <div class="container">
             <center>
                 <H1>István Sipos</H1>
                 <div>
-                    <span class="contact"><i class="fas fa-map-marker-alt"></i> Hajdúböszörmény</span>
+                    <span class="contact"><i class="fas fa-map-marker-alt"></i> Hajdúböszörmény (Hungary)</span>
                     <span class="contact"><i class="fas fa-phone"></i> +36/30/791-5246</span>
-                    <span class="contact"><i class="fas fa-envelope"></i> stephen@stephensipos.com</span>
+                    <span class="contact"><i class="fas fa-envelope"></i> <a href="mailto:stephen@stephensipos.com">stephen@stephensipos.com</a></span>
+                    <span class="contact"><i class="fas fa-link"></i> <a href="https://stephensipos.github.io">https://stephensipos.github.io</a> </span>
                 </div>
             </center>
-            <hr/>
-            <div class="section profile">
-                <img src="images/profile.png" />
+            <hr />
+            <div class="container profile">
+                <img class="rounded float-right" src="images/profile.png" />
                 <h2 class="section-title">Profile</h2>
                 <p>
                     I am an exceptionally capable IT proficient with a demonstrated
@@ -34,139 +48,181 @@
                 </p>
             </div>
             <hr/>
-            <div class="section">
-                <h2 class="section-title">Work experience</h2>
-                <table class="listing">
-                    <tbody>
-                        <tr>
-                            <td>2019-Present</td>
-                            <td>
-                                <div class="role">Freelance contractor</div>
-                                <div class="description">
-                                    Working on a range of projects including web development, desktop software development, server
-                                    administration and ML projects.
-                                </div>
-                                <div class="skills">
-                                    Skills: 
-                                    <ul>
-                                        <li>Python</li>
-                                        <li>C#</li>
-                                        <li>HTML</li>
-                                        <li>CSS</li>
-                                        <li>JavaScript</li>
-                                        <li>SQL</li>
-                                    </ul>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>2018-2019</td>
-                            <td>
-                                <div class="role">RPA engineer</div>
-                                <div class="company">E.On Customer Services</div>
-                                <div class="description">
-                                    Our team introduced and realized the use of RPA technologies in the company. I built and maintained our
-                                    first robots, while training new colleges.
-                                </div>
-                                <div class="skills">
-                                    Skills: 
-                                    <ul>
-                                        <li>C#</li>
-                                        <li>BluePrism</li>
-                                        <li>SCRUM</li>
-                                    </ul>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>2010-2018</td>
-                            <td>
-                                <div class="role">IT support</div>
-                                <div class="company">E.On Customer Services</div>
-                                <div class="description">
-                                    I created software solutions (ETL, automatization, development of tools,
-                                    applications and databases to support business processes) for my division, and
-                                    other internal clients.
-                                </div>
-                                <div class="skills">
-                                    Skills: 
-                                    <ul>
-                                        <li>JavaScript</li>
-                                        <li>Python</li>
-                                        <li>C#</li>
-                                        <li>PowerShell</li>
-                                        <li>VBA</li>
-                                    </ul>
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <hr/>
-            <div class="section">
-                <h2 class="section-title">Education</h2>
-                <table class="listing">
-                    <tbody>
-                        <tr>
-                            <td>2018-Present</td>
-                            <td>
-                                <div><strong>University of Debrecen, Computer Science, BsC</strong> (correspondence course)</div>
-                                <div>
-                                    Expected time of graduation: 2021
-                                </div>
-                             </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <hr />
-            <div class="section">
-                <h2 class="section-title">Professional development</h2>
-                <table class="listing">
-                    <tbody>
-                        <tr>
-                            <td>2020</td>
-                            <td>
-                                <div>
-                                    IBM Data Analyst Professional Certificate (Coursera.org)
-                                </div>
-                             </td>
-                        </tr>
-                        <tr>
-                            <td>2019</td>
-                            <td>
-                                <div>
-                                    Deep Learning Specialization (Coursera.org)
-                                </div>
-                             </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <hr />
-            <div class="section">
-                <h2 class="section-title">Languages</h2>
-                <table class="listing">
-                    <tbody>
-                        <tr>
-                            <td>Hungarian</td>
-                            <td>
-                                <div>
-                                    Native
-                                </div>
-                             </td>
-                        </tr>
-                        <tr>
-                            <td>English</td>
-                            <td>
-                                <div>
-                                    Proficient with focus on IT vocabulary
-                                </div>
-                             </td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="section">
+                            <h2 class="section-title">Work experience</h2>
+                            <table class="listing">
+                                <tbody>
+                                    <tr>
+                                        <td>2019-Present</td>
+                                        <td>
+                                            <div class="role">Freelance contractor</div>
+                                            <div class="description">
+                                                Working on a range of projects including web development, desktop software development, server
+                                                administration and ML projects.
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2018-2019</td>
+                                        <td>
+                                            <div class="role">RPA engineer</div>
+                                            <div class="company">E.On Customer Services</div>
+                                            <div class="description">
+                                                Our team introduced and realized the use of RPA technologies in the company. I built and maintained our
+                                                first robots, while training new colleges.
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2010-2018</td>
+                                        <td>
+                                            <div class="role">IT support</div>
+                                            <div class="company">E.On Customer Services</div>
+                                            <div class="description">
+                                                I created software solutions (ETL, automatization, development of tools,
+                                                applications and databases to support business processes) for my division, and
+                                                other internal clients.
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <hr/>
+                        <div class="section">
+                            <h2 class="section-title">Education</h2>
+                            <table class="listing">
+                                <tbody>
+                                    <tr>
+                                        <td>2018-Present</td>
+                                        <td>
+                                            <div><strong>University of Debrecen, Computer Science, BsC</strong></div>
+                                            <div>correspondence course</div>
+                                            <div>Expected time of graduation: 2021</div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>    
+                        <hr />
+                        <div class="section">
+                            <h2 class="section-title">Professional development</h2>
+                            <table class="listing">
+                                <tbody>
+                                    <tr>
+                                        <td>2020</td>
+                                        <td>
+                                            <div>
+                                                IBM Data Analyst Professional Certificate (Coursera.org)
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2019</td>
+                                        <td>
+                                            <div>
+                                                Deep Learning Specialization (Coursera.org)
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="section">
+                            <h2 class="section-title">Skills</h2>
+                            <table class="listing">
+                                <tbody>
+                                    <tr>
+                                        <td>Python</td>
+                                        <td>
+                                            <div class="progress-bar"><div style="width: 90%;"></div></div>
+                                            <span class="note">Data sci./ML/automatization</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>C#/.NET</td>
+                                        <td>
+                                            <div class="progress-bar"><div style="width: 70%;"></div></div>
+                                            <span class="note">Desktop software development</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>SQL</td>
+                                        <td>
+                                            <div class="progress-bar"><div style="width: 70%;"></div></div>
+                                            <span class="note">MySQL, MS SQL</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Linux</td>
+                                        <td>
+                                            <div class="progress-bar"><div style="width: 60%;"></div></div>
+                                            <span class="note">System adminstration, shell scripting</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Git</td>
+                                        <td>
+                                            <div class="progress-bar"><div style="width: 60%;"></div></div>
+                                            <span class="note">&nbsp;</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>JavaScript</td>
+                                        <td>
+                                            <div class="progress-bar"><div style="width: 40%;"></div></div>
+                                            <span class="note">Front-end, back-end</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>HTML5, CSS3</td>
+                                        <td>
+                                            <div class="progress-bar"><div style="width: 40%;"></div></div>
+                                            <span class="note">&nbsp;</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>VBA</td>
+                                        <td>
+                                            <div class="progress-bar"><div style="width: 80%;"></div></div>
+                                            <span class="note">&nbsp;</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>                    
+                        <div class="section">
+                            <h2 class="section-title">Languages</h2>
+                            <table class="listing">
+                                <tbody>
+                                    <tr>
+                                        <td>Hungarian</td>
+                                        <td>
+                                            <div class="progress-bar"><div style="width: 100%;"></div></div>
+                                            <span class="note">
+                                                Native
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>English</td>
+                                        <td>
+                                            <div class="progress-bar"><div style="width: 90%;"></div></div>
+                                            <span class="note">
+                                                B2-C1
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>                    
+                    </div>    
+                </div>
             </div>
         </div>
     </body>

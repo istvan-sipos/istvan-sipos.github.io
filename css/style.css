@@ -1,6 +1,5 @@
 body { 
-  font-family: Calibri;
-  font-size: 90%;
+  font-size: 100%;
 }
 
 hr {
@@ -25,24 +24,9 @@ div.profile {
 }
 
 div.profile > img {
-  width: 150px;
-  height: 150px;
-  float: left;
-  padding-right: 10px;
-  padding-top: 20px;
-}
-
-div.main {
-  overflow: auto;
-}
-
-div.main > div.left-column {
-  width: 510px;
-  float: left;
-}
-
-div.main > div.right-column {
-  margin-left: 550px;
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
 }
 
 table.listing {
