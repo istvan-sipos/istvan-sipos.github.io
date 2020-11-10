@@ -1,0 +1,78 @@
+body { 
+  font-family: Calibri;
+  font-size: 90%;
+}
+
+hr {
+  color: #eeeeee;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #555555;
+}
+
+div#content {
+  width: 800px;
+  margin: auto;
+}
+
+span.contact {
+  padding-left: 10px;
+}
+
+div.profile {
+  overflow: auto;
+}
+
+div.profile > img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+
+/* Leftmost Column */
+table.listing > tbody > tr > td:nth-child(1) {
+  width: 150px;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+table.listing > tbody > tr > td > div.role {
+  font-weight: bold;
+}
+
+table.listing > tbody > tr > td > div.company {
+  font-style: italic;
+}
+
+table.listing > tbody > tr > td > div.skills > ul {
+  padding: 0;
+  display: inline;
+}
+
+table.listing > tbody > tr > td > div.skills > ul >li {
+  display: inline;
+}
+table.listing > tbody > tr > td > div.skills > ul > li:not(:first-child)::before {
+  content: ", ";
+}
+
+.signature {
+  float: right;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.signature > .name {
+  display: block;
+}
+
+.signature > .location {
+  font-style: italic;
+}
+
+.signature > .timestamp {
+  font-style: italic;
+}
