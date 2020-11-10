@@ -32,9 +32,30 @@ div.profile > img {
   padding-top: 20px;
 }
 
+div.main {
+  overflow: auto;
+}
+
+div.main > div.left-column {
+  width: 510px;
+  float: left;
+}
+
+div.main > div.right-column {
+  margin-left: 550px;
+}
+
+table.listing {
+  width: 100%;
+}
+
+table.listing > tbody > tr > td {
+  padding-bottom: 5px;
+}
+
 /* Leftmost Column */
 table.listing > tbody > tr > td:nth-child(1) {
-  width: 150px;
+  width: 100px;
   font-weight: bold;
   vertical-align: top;
 }
@@ -59,20 +80,20 @@ table.listing > tbody > tr > td > div.skills > ul > li:not(:first-child)::before
   content: ", ";
 }
 
-.signature {
-  float: right;
-  text-align: center;
-  margin-top: 10px;
+div.progress-bar {
+  margin-top: 8px;
+  width: 100%;
+  background-color: #eeeeee;
+  border-radius: 2px;
 }
 
-.signature > .name {
-  display: block;
+div.progress-bar > div {
+  height: 6px;
+  border-radius: 2px;
+  background-color: cornflowerblue;
 }
 
-.signature > .location {
-  font-style: italic;
-}
-
-.signature > .timestamp {
-  font-style: italic;
+span.note {
+  color: #555555;
+  font-size: smaller;
 }

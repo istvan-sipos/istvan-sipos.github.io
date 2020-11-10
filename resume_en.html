@@ -168,34 +168,6 @@
                     </tbody>
                 </table>
             </div>
-            <div class="signature">
-                <span class="name">István Sipos</span>
-                <span class="location">Hajdúböszörmény</span>
-                <span class="timestamp" id="timestamp">&nbsp;</span>    
-            </div>
         </div>
-        <script>
-            var main = function() {
-                var now = new Date();
-                var ye = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(now)
-                var mo = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(now)
-                var da = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(now)
-
-                var timestamp_node = document.getElementById("timestamp");
-                var timestamp = "";
-
-                switch (document.documentElement.lang) {
-                    case "en":
-                        timestamp =  `${mo}/${da}/${ye}`;
-                        break;
-                    case "hu":
-                        timestamp =  `${ye}.${mo}.${da}`;
-                }
-
-                timestamp_node.innerHTML = timestamp;
-            }
-
-            document.body.onload = main;
-        </script>
     </body>
 </html>
