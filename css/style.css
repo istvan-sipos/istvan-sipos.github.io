@@ -39,7 +39,7 @@ table.listing > tbody > tr > td {
 
 /* Leftmost Column */
 table.listing > tbody > tr > td:nth-child(1) {
-  width: 100px;
+  width: 120px;
   font-weight: bold;
   vertical-align: top;
 }
